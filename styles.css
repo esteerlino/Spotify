@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /*espaçamento igual em todos os eixos*/
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    /*cima-direita-baixo-esquerda*/
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    /*Primeiro: em cima e embaixo. Segundo: esquerda e direita*/
+    padding: 10px 0;
+}
+
+/*Os ícones são tratados como fonte também. Alterando o tamanho do texto, os ícones também são alterados*/
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14;
+    font-family: "DM Sans", sans-serif;
+}
