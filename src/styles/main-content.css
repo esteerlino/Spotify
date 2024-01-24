@@ -15,7 +15,7 @@
     padding: 16px;
     margin: 11px;
     border-radius: 8px;
-    background-color: #121212;
+    background-color: #181735;
 }
 
 .header__navigation .navigation {
@@ -35,8 +35,8 @@
     justify-content: center;
     width: 32px;
     height: 32px;
-    background: var(--bg-icon);
-    background-color: var(--bg-arrow-color);
+    background: #111025;
+    background-color: #111025;
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -53,7 +53,7 @@
     width: 364px;
     height: 48px;
     margin-left: 8px;
-    background-color: #242424;
+    background-color: #100f29ab;
     border-radius: 500px;
     border: 1px solid transparent;
 }
@@ -80,7 +80,7 @@
 }
 
 .header__login .subscribe {
-    color: #a7a7a7;
+    color: #dfdfdf;
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
@@ -90,7 +90,7 @@
 .header__login .login {
     width: 100px;
     height: 48px;
-    color: #000;
+    color: #111025;
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;

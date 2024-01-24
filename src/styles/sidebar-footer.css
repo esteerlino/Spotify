@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #111025;
     font-family: var(--font-dm-sans);
 }
 
@@ -14,14 +14,14 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: #181735;
     border-radius: 8px;
     /*cima-direita-baixo-esquerda*/
     padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo {
-    background: #121212;
+    background: #181735;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -43,20 +43,20 @@ body {
 
 /*Os ícones são tratados como fonte também. Alterando o tamanho do texto, os ícones também são alterados*/
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: #dfdfdf;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
 }
 
 .library {
-    background-color: #121212;
+    background-color: #181735;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: #dfdfdf;
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
@@ -70,7 +70,7 @@ body {
 .library .library__button {
     display: flex;
     margin-right: 10px;
-    color: #b3b3b3;
+    color: #dfdfdf;
     background-color: transparent;
     border: 0px;
     font-size: 16px;
@@ -97,8 +97,8 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;
-    color: #b3b3b3;
+    background-color: #100f29ab;
+    color: #dfdfdf;
     font-weight: 600;
     font-size: 16px;
     margin: 8px 0;
@@ -129,7 +129,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #fff;
-    color: #000;
+    color: #111025;
     border-radius: 20px;
     font-size: 14px;
     font-weight: 700;
@@ -146,8 +146,8 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;
-    color: #b3b3b3;
+    background-color: #100f29ab;
+    color: #dfdfdf;
     font-weight: 600;
     font-size: 16px;
     margin: 8px 0;
@@ -178,7 +178,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #fff;
-    color: #000;
+    color: #111025;
     border-radius: 20px;
     font-size: 14px;
     font-weight: 700;
@@ -195,7 +195,7 @@ body {
 }
 
 .sidebar .cookies a{
-    color: #b3b3b3;
+    color: #dfdfdf;
     font-weight: 500;
     font-size: 12px;
     text-decoration: none;
@@ -207,7 +207,7 @@ body {
 
 .languages .languages__button {
     background-color: transparent;
-    border: 1px solid #b3b3b3;
+    border: 1px solid #dfdfdf;
     color: #fff;
     align-items: center;
     font-weight: bold;
@@ -223,7 +223,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #142674, #cc2464);
+    background: linear-gradient(to right, #495aa8, #df6593);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
@@ -247,7 +247,7 @@ body {
 
 .disclaimer-premium button {
     background-color: #ffffff;
-    color: #000000;
+    color: #111025;
     font-size: 16px;
     font-weight: bold;
     padding: 14px 20px;
